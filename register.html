@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./css/auth.css" />
+  </head>
+  <body>
+    <div class="row g-0">
+      <div
+        class="col-md-6 col-xs-10 left vh-100 d-flex justify-content-center align-items-center"
+      >
+        <img src="/img/logo.png" alt="img-logo" />
+      </div>
+      <div
+        class="col-md-5 col-xs-10 right d-flex flex-column justify-content-center"
+      >
+        <h1 class="text-center">Let's Get Started !</h1>
+        <p class="text-center text-secondary">
+          Create new account to access all features
+        </p>
+        <div class="row justify-content-center">
+          <div class="col col-7">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input
+                  type="name"
+                  class="form-control form-control-sm"
+                  id="name"
+                  name="name"
+                  placeholder="Name"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email Address*</label>
+                <input
+                  type="email"
+                  class="form-control form-control-sm"
+                  id="email"
+                  name="email"
+                  placeholder="Enter email address"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="phoneNumber" class="form-label">Phone Number</label>
+                <input
+                  type="phoneNumber"
+                  class="form-control form-control-sm"
+                  id="phoneNumber"
+                  name="phoneNumber"
+                  placeholder="08xxxxxxxxxx"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="password" class="form-label"
+                  >Create New Password</label
+                >
+                <input
+                  type="password"
+                  class="form-control form-control-sm"
+                  id="password"
+                  name="password"
+                  placeholder="Create new password"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="2nd-password" class="form-label"
+                  >Re-type New Password</label
+                >
+                <input
+                  type="2nd-password"
+                  class="form-control form-control-sm"
+                  id="2nd-password"
+                  name="2nd-password"
+                  placeholder="Re-type New Password"
+                />
+              </div>
+              <div class="mb-3 form-check">
+                <input
+                  type="checkbox"
+                  class="form-check-input"
+                  id="termsConditions"
+                  name="termsConditions"
+                />
+                <label class="form-check-label"
+                  >I agree to terms [&] conditions</label
+                >
+              </div>
+              <div class="d-grid">
+                <button
+                  type="submit"
+                  class="btn"
+                  style="background-color: #efc81a; color: white"
+                >
+                  Log in
+                </button>
+              </div>
+              <p class="text-end">
+                <a
+                  href="./forgot-password.html"
+                  class="text-decoration-none text-black"
+                  >Forgot Password?</a
+                >
+              </p>
+            </form>
+          </div>
+        </div>
+        <p class="text-center">
+          Already have account?
+          <a
+            href="/login.html"
+            class="text-decoration-none"
+            style="color: #efc81a"
+            >Login Here</a
+          >
+        </p>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.left-col{
+    margin: 0;
+    padding: 0;
+    background-color: #EFC81A;
+    background-image: url("/img/left.png");
+    background-size: cover;
+    background-position: center;
+}
+
+h1{
+    color: #EFC81A;
+}
